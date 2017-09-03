@@ -10,7 +10,8 @@ int main(){
 	std::cout << "pi: " << pi << std::endl;
 	std::cout << "*pi: " << *pi << std::endl;
 	std::cout << "A goeie"<<std::endl;
-	std::map<std::string,int> age_m = { {"Stella",42}, {"Piet",35}, {"Rosa",28}, {"Henk",84} };
+	std::map<std::string,int> age_m = { {"Floor",17}, {"Piet",35}, {"Rosa",28}, {"Henk",84}, {"Stella",42} };
 	for (auto elem : age_m)
 		cout << elem.first << " is " << elem.second << " years old." << endl;
 }
+/*some comment*/
